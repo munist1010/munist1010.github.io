@@ -1,15 +1,24 @@
+body {
+    padding-top: 5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 header {
     display: flexbox;
+    justify-content: center;
 }
 
 .type h1 {
     overflow:hidden;
     border-right: .2em solid plum;
+    font-family:'Courier New', Courier, monospace;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .1em;
     animation: 
-    typing 4s steps(40, end),
+    typing 2s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
