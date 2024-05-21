@@ -1,3 +1,7 @@
+header {
+    display: flexbox;
+}
+
 .type h1 {
     overflow:hidden;
     border-right: .2em solid plum;
